@@ -1,18 +1,13 @@
-Welcome to your Appcelerator Titanium Mobile Project
+Reviewer 1:
+First, there are several grammatical errors in the code. On line 84, you end with a ";" when it should be a ","
+On line 99 you end the line with a "{" when it should be a ","
+On line 103 you need to insert a ";" right before the last character
+On line 104 you need to add in another ")" before the ";"
+On line 84 you need to add in another ";" before the "}"
+On line 85 you need to add in ";" after the ")"
+On line 61 you need to capitalize Titanium 
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+After making these corrections, your code seems to work. However, an error message still pops up but can be exited out. The only thing that can be seen is the Tea Selection page. All the teas work but there is no navigation to the new window.
+In your code you have the creation of a new window and various functions but forgot to add each one to the window. To fix that all you have to do is specify which var you are wanting to add, then add it to the win1 (ex. win1.add(showCamera);)
 
-
-
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
-
+I can see that you are trying to access the camera and photos to email to someone. This is from the first section in chapter 7. Once the corrections above are made, this is possible, however I am not able to run it on the simulator due to Titanium limitations
